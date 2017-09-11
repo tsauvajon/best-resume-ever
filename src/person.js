@@ -1,85 +1,89 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
-    last: 'Doe',
+    first: 'Thomas',
+    last: 'Sauvajon',
   },
-  position: 'Software Developer',
+  position: 'Software Engineer',
   birth: {
-    year: 1990,
-    location: 'New York'
+    year: 1993,
+    location: 'Montpellier, France'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      company: 'Gerflor',
+      position: 'Software Engineer',
+      timeperiod: 'since September 2016',
+      description: 'Conceiving, developping and continuously integrating .Net, VueJS and Java applications'
     },
     {
-      company: 'Company B',
+      company: 'VehiZen',
       position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremly important tasks.'
+      timeperiod: 'July 2016 - August 2016',
+      description: 'Building a chat application in Xamarin (mobile) and Asp.Net MVC (web)'
     },
     {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'VehiZen',
+      position: 'Frontend Developer',
+      timeperiod: 'July 2015 - August 2015',
+      description: 'Adding features to the customer UI'
+    },
+    {
+      company: 'COM3D',
+      position: 'Trainee (iOS developper)',
+      timeperiod: 'January 2012 - February 2012',
+      description: 'Building an iOS 3D application with Unity3D'
+    },
+    {
+      company: 'Oktalogic',
+      position: 'Trainee (frontend developper)',
+      timeperiod: 'July 2012 - August 2012',
+      description: 'Adding features to the back-office'
     }
   ],
   education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
+      degree: 'Expert en informatique et systèmes d\'information (RNCP Niveau 1)',
+      timeperiod: '2016 - 2019',
+      description: 'EPSI Montpellier'
+    },{
+      degree: 'Licence Informatique',
+      timeperiod: '2013 - 2016',
+      description: 'Université de Montpellier'
     },
     {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      degree: 'BTS Informatique de Gestion',
+      timeperiod: '2010 - 2012',
+      description: 'EPSI Montpellier, mention BIEN'
     }
   ],
   // skill level goes 0 to 100
   skills: [{
-      name: 'HTML5',
+      name: '.Net',
       level: '99'
     },
     {
-      name: 'CSS3',
+      name: 'VueJS',
       level: '95'
     },
     {
-      name: 'JavaScript',
+      name: 'JavaScript ESNext',
       level: '97'
     },
     {
-      name: 'Node.js',
+      name: 'Go',
       level: '93'
     },
     {
-      name: 'Angular 2',
+      name: 'Java',
       level: '60'
-    },
-    {
-      name: 'TypeScript',
-      level: '80'
-    },
-    {
-      name: 'ES.Next',
-      level: '70'
-    },
-    {
-      name: 'Docker',
-      level: '99'
     }
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription: '....',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'thomas.sauvajon@gmail.com',
+    phone: '+336 99 35 37 32',
+    street: '31b Avenue Saint-Lazare',
+    city: 'Montpellier',
+    website: 'github.com/tsauvajon',
+    github: 'tsauvajon'
   }
 };
